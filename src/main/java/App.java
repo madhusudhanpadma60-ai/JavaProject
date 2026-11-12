@@ -1,10 +1,9 @@
 public class App {
-
-    public static int add(int a, int b) {
-        return a + b;
+    public static String message() {
+        return "Hello Jenkins CI/CD";
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello Jenkins");
+        System.out.println(message());
     }
 }
